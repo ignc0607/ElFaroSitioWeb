@@ -82,9 +82,8 @@ footer {
     padding: 15px;
 }
 
-/* Media Queries */
 @media screen and (max-width: 768px) {
-    /* En pantallas más pequeñas, organizamos los artículos en una sola columna */
+    
     table {
         display: block;
     }
@@ -92,7 +91,7 @@ footer {
     table td {
         width: 100%;
         display: block;
-        margin-bottom: 20px; /* Espacio entre los bloques */
+        margin-bottom: 20px;
     }
 
     /* Ajustar el tamaño de la imagen */
@@ -100,24 +99,20 @@ footer {
         width: 100%;
     }
     
-    /* Cambiar el texto del título para que no se desborde */
     h3 {
-        font-size: 1.2em; /* Ajusta el tamaño de los títulos */
+        font-size: 1.2em;
     }
     
-    /* Asegurarse de que los controles de video/audio tengan espacio suficiente */
     iframe {
         width: 100%;
     }
 }
 
 @media screen and (max-width: 480px) {
-    /* En pantallas muy pequeñas, podemos reducir más el tamaño del texto o los márgenes */
     h3 {
-        font-size: 1em; /* Reduce el tamaño del título en pantallas más pequeñas */
+        font-size: 1em;
     }
     
-    /* Para asegurar un buen espaciado en elementos pequeños */
     .contenedor {
         padding: 10px;
     }
